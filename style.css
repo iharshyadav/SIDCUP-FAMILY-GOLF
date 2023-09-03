@@ -1,0 +1,152 @@
+*{
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    /* overflow: hidden; */
+}
+
+.cursor{
+    width: 20px;
+    height: 20px;
+    background-color: #6dee32;
+    position: fixed;
+    border-radius: 50%;
+    z-index: 9;
+}
+
+.cursor-blur{
+    width: 250px;
+    height: 250px;
+    background-color: #8ac66d;
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(130px);
+    z-index: 9;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: black; */
+    height: 15vh;
+    gap: 4vw;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.nav img{
+    width: 15vw;
+    padding-left: 8vw;
+}
+
+.nav h2{
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+video{
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 10;
+}
+
+.content{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+.page1 .h1{
+    font-size: 140px;
+    /* height: 20vh; */
+    /* width: 100%; */
+    font-weight: 900;
+    line-height: 17vh;
+    position: relative;
+
+}
+
+.page1 .h2{
+    font-size: 140px;
+    /* height: 20vh; */
+    /* width: 100%; */
+    font-weight: 900;
+    line-height: 17vh;
+    position: relative;
+
+}
+
+.page1 .h1::before{
+    content: "EAT. DRINK.";
+    position: absolute;
+    color: black;
+    top: -6px;
+    left: -6px; 
+    z-index: -1;
+    -webkit-text-stroke: 1px #95c11e;
+}
+
+.page1 .h2::before{
+    content: "PLAY.";
+    position: absolute;
+    color: black;
+    top: -6px;
+    left: -6px; 
+    z-index: -1;
+    -webkit-text-stroke: px #95c11e;
+}
+
+.page1 h3{
+    font-size: 2vw;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    font-weight: 600;
+
+}
+
+.h4{
+    font-weight: 400;
+    line-height: 3.5vh;
+    font-size: 1.2vw;
+}
+
+.page2{
+    height: 100vh;
+    width: 100%;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+

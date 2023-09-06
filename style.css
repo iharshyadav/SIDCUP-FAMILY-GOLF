@@ -10,6 +10,7 @@ html,body{
     height: 100%;
     width: 100%;
     /* perspective: 800px; */
+    cursor: default;
 }
 
 .cursor{
@@ -51,6 +52,7 @@ html,body{
 .nav h2{
     font-size: 1vw;
     font-weight: 500;
+    cursor: pointer;
 }
 
 video{
@@ -220,6 +222,7 @@ video{
     text-align: center;
     line-height: 6vh;
     font-size: 1.25vw;
+    cursor: text;
 }
 
 .about h2{
@@ -335,5 +338,67 @@ video{
     width: 100%;
     z-index: 10;
 }
+
+.quotes{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.quotes img{
+    width: 4.1vw;
+    position: absolute;
+}
+
+.quotes p{
+    width: 55%;
+    font-size: 1.9vw;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    line-height: 6.4vh;
+    margin-top: 20vh;
+}
+
+.quote1{
+    transition: 0.2s all;
+    left: 9%;
+    top:18%
+}
+
+.quote2{
+    right: 14%;
+    bottom:2%;
+    transition: 0.2s all;
+}
+
+.next{
+    height: 30vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

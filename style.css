@@ -128,7 +128,7 @@ video{
 
 }
 
-.h4{
+.h45{
     font-weight: 400;
     line-height: 3.5vh;
     font-size: 1.2vw;
@@ -376,20 +376,154 @@ video{
 }
 
 .next{
-    height: 30vh;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next p{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 5.1vw;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    position: relative;
+    color: black;
+    z-index: 9;
+    -webkit-text-stroke: 0.6px #fff;
+    margin-top: 15vh;
+    transition: 0.2s all;
+}
+
+.next-inside{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    gap: 2vw;
+    bottom: 3%;
+    z-index: 10;
+    
+}
+
+.g1{
+    width: 24vw;
+    background-color: #ace022;
+    height: 19vh;
+    border-radius: 1vw;
+    text-align: center;
+    padding-top: 4vh;
+    color: black;
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.g3{
+    width: 24vw;
+    background-color: #ace022;
+    height: 19vh;
+    border-radius: 1vw;
+    text-align: center;
+    padding-top: 4vh;
+    color: black;
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.g2{
+    padding-top: 5.8vh;
+    width: 24vw;
+    background-color: #ace022;
+    height: 19vh;
+    border-radius: 1vw;
+    text-align: center;
+    /* padding-top: 4vh; */
+    color: black;
+    font-size: 2.5vw;
+    font-weight: 600;
 }
 
 
+footer{
+    height: 55vh;
+    width: 100%;
+    background: linear-gradient(to left bottom,#36A339,#ace022);
+}
 
+.lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    
+}
 
+.sid-img img{
+    width: 9vw;
+    margin-right: 1.5vw;
+}
 
+i{
+    font-size: 2.2vw;
+    gap: 0.7vw;
+    color: #000;
+}
 
+.sid-logo{
+    margin-top: 6vh;
+}
 
+.sid-img{
+    padding-top: 8vh;
+    height: 25vh;
+}
 
+.block-1{
+    padding-top: 12vh;
+    line-height: 7vh;
+    font-size: 1.8vw;
+    font-weight: 900;
+    color: black;
+    /* width: 20%; */
+}
 
+.block-2{
+    padding-top: 12vh;
+    line-height: 7vh;
+    font-size: 1.8vw;
+}
 
+.block-3{
+    padding-top: 12vh;
+    line-height: 3.5vh;
+    width: 15%;
+    align-items: start;
+    font-weight: 400;
+}
 
+.block-1 h3{
+    /* font-weight: 500; */
+    color: black;
+}
 
+.block-2 h3{
+    /* font-weight: 500; */
+    color: black;
+}
+
+.block-3 h4{
+    font-weight: 600;
+    color: black;
+    font-size: 1vw;
+}
+
+.block-3 h3{
+    font-weight: 600;
+    color: black;
+    /* font-size: 1vw; */
+    margin-top: 2vh;
+}
 
 
 

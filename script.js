@@ -56,6 +56,18 @@ gsap.to(".quote2",{
     }
 })
 
+gsap.to(".next1",{
+    bottom:"28%",
+    scrollTrigger:{
+        trigger:".next1",
+        scroller:"body",
+        scrub:1,
+        // markers:true,
+        start:"top 100%",
+        end:"top 85%"
+    }
+})
+
 gsap.to(".nav",{
     backgroundColor:"black",
     height:"12vh",

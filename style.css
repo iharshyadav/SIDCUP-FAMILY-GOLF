@@ -262,16 +262,16 @@ video{
 
 
 .card1{
-  background-image: url(/photos/card1.avif);
+  background-image: url(./photos/card1.avif);
   
 }
 
 .card2{
-    background-image: url(/photos/card2.webp);
+    background-image: url(./photos/card2.webp);
 }
 
 .card3{
-    background-image: url(/photos/card3.avif);
+    background-image: url(./photos/card3.avif);
 }
 
 .same h2{

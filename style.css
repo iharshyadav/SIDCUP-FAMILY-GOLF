@@ -196,7 +196,7 @@ video{
     align-items: center;
     justify-content: space-around;
     position: relative;
-    z-index:10 ;
+    z-index:10;
 }
 
 .about .img1{
